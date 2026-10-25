@@ -1,16 +1,11 @@
 #include <bits/stdc++.h>
-#define endl '\n'
 
 using namespace std;
 using ll = long long;
-using vi = vector<int>;
 using vll = vector<ll>;
 
-inline void fast_io()
-{
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-}
+#define endl '\n'
+#define all(x) (x).begin(), (x).end()
 
 void solve()
 {
@@ -18,7 +13,8 @@ void solve()
 
 int main()
 {
-    fast_io();
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
 
     int t = 1;
     cin >> t;
